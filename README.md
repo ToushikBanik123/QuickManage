@@ -37,19 +37,45 @@ QuickManage is a task management app developed using Flutter. The app allows use
 
 ## Folder Structure
 
-- **Api:**
-  - Contains the models required in the app.
-  - `ApiService.dart` handles all API calls.
+Here is an overview of the folder structure used in the project:
 
-- **Const:**
-  - Contains custom widgets in the `Widgets` folder.
-  - `color.dart` defines the color palette used throughout the app.
+```
+QuickManage/
+│
+├── Api/
+│   ├── models/
+│   │   └── user_model.dart
+│   └── ApiService.dart
+│
+├── Const/
+│   ├── widgets/
+│   │   └── custom_button.dart
+│   └── color.dart
+│
+├── Provider/
+│   └── task_provider.dart
+│
+├── Screens/
+│   ├── login_screen.dart
+│   ├── task_form_screen.dart
+│   └── home_screen.dart
+│
+└── main.dart
+```
 
-- **Provider:**
-  - Contains all the provider files for state management and functions performed in the app.
+- **Api Folder:**
+  - **models/**: Contains all the data models required for the app.
+  - **ApiService.dart**: Manages all API calls.
 
-- **Screens:**
-  - Contains all the UI components or view files.
+- **Const Folder:**
+  - **widgets/**: Custom widgets used throughout the app.
+  - **color.dart**: Defines the color palette for consistent UI design.
+
+- **Provider Folder:**
+  - **task_provider.dart**: Manages state and logic for task management.
+
+- **Screens Folder:**
+  - Contains all the UI components or view files, such as `login_screen.dart`, `task_form_screen.dart`, and `home_screen.dart`.
 
 ## Limitations
 
@@ -90,4 +116,4 @@ To run the app on your local machine:
 If you have any questions or feedback, feel free to reach out:
 
 - **Email:** toushikbanikofficial@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/toushikbanik/
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/toushikbanik/)
