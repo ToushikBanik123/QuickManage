@@ -109,7 +109,45 @@ To run the app on your local machine:
 
 ## Screenshots
 
-*Include screenshots of your app here to give viewers a visual representation of the UI and features.*
+### Welcome Page
+![Welcome Page](Screenshots/WelcomePage.jpeg)
+
+### Login Page
+![Login Page](Screenshots/LoginPage.jpeg)
+
+### Registration Page
+![Registration Page](Screenshots/RegistrationPage.jpeg)
+
+### Home Screen
+![Home Screen](Screenshots/Home.jpeg)
+
+### Drawer
+![Drawer](Screenshots/Drawer.jpeg)
+
+### Create Task - Step 1
+![Create Task - Step 1](Screenshots/CreateTask1.jpeg)
+
+### Create Task - Step 2
+![Create Task - Step 2](Screenshots/CreateTasek2.jpeg)
+
+### Create Task - Step 3
+![Create Task - Step 3](Screenshots/CreateTask\ 3.jpeg)
+
+### Card View
+![Card View](Screenshots/Card.jpeg)
+
+### Task Search
+![Task Search](Screenshots/Search.jpeg)
+
+### Toggle Search
+![Toggle Search](Screenshots/Taugle\ Search.jpeg)
+
+### Select Date
+![Select Date](Screenshots/Select\ Date.jpeg)
+
+### Update Task
+![Update Task](Screenshots/UpdateTask.jpeg)
+
 
 ## Contact
 
