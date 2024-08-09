@@ -2,30 +2,45 @@
 
 QuickManage is a task management app developed using Flutter. The app allows users to manage tasks efficiently with a clean, responsive UI. This project focuses on providing a smooth and interactive experience while implementing all the required features as per the provided assignment documentation.
 
+## License
+
+MIT License
+
+© 2024 Toushik Banik
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+---
+
 ## Features
 
-- **User Registration:** 
+- **User Registration:**
   - New users cannot be created in the backend. To register, use the provided credentials:
     - **Email:** `george.bluth@reqres.in`
     - **Password:** `cityslicka`
 
-- **User Login:** 
+- **User Login:**
   - Log in using the predefined credentials:
     - **Email:** `eve.holt@reqres.in`
     - **Password:** `pisto`
   - Once logged in, users will remain logged in based on the saved token from the previous session.
 
 - **Task Management:**
-  - **Task Creation:** 
+  - **Task Creation:**
     - Tasks created are added to the local list for user interaction. However, they are not updated on the server due to API limitations. Tasks will not persist if the app is restarted, as they are stored temporarily.
-  - **Task Update:** 
+  - **Task Update:**
     - Tasks retrieved from the API can be updated. However, locally created tasks cannot be updated due to server limitations.
-  - **Task Filtering:** 
+  - **Task Filtering:**
     - Use the orange button at the top of the page to filter tasks assigned to you or all users.
-  - **Task Search:** 
+  - **Task Search:**
     - Search tasks from the drawer using either the title or description.
 
-- **User Logout:** 
+- **User Logout:**
   - Users can log out from the drawer.
 
 ## Technologies Used
@@ -131,7 +146,7 @@ To run the app on your local machine:
 ![Create Task - Step 2](Screenshots/CreateTasek2.jpeg)
 
 ### Create Task - Step 3
-![Create Task - Step 3](Screenshots/CreateTask\ 3.jpeg)
+![Create Task - Step 3](Screenshots/CreateTask%203.jpeg)
 
 ### Card View
 ![Card View](Screenshots/Card.jpeg)
@@ -140,14 +155,13 @@ To run the app on your local machine:
 ![Task Search](Screenshots/Search.jpeg)
 
 ### Toggle Search
-![Toggle Search](Screenshots/Taugle\ Search.jpeg)
+![Toggle Search](Screenshots/Taugle%20Search.jpeg)
 
 ### Select Date
-![Select Date](Screenshots/Select\ Date.jpeg)
+![Select Date](Screenshots/Select%20Date.jpeg)
 
 ### Update Task
 ![Update Task](Screenshots/UpdateTask.jpeg)
-
 
 ## Contact
 
